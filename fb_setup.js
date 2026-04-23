@@ -7,14 +7,14 @@
 // Input:  n/a
 // Return: n/a
 /**************************************************************/
-  const firebaseConfig = {
-    apiKey: ,
-    authDomain: ,
-    databaseURL: ,
-    projectId: ,
-    storageBucket: ,
-    messagingSenderId:,
-    appId:
+ const firebaseConfig = {
+    apiKey: "AIzaSyBrn5cEyvlPPvsCyuisltGiqXN-WQWejOQ",
+    authDomain: "tom-barker-12comp.firebaseapp.com",
+    databaseURL: "https://tom-barker-12comp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "tom-barker-12comp",
+    storageBucket: "tom-barker-12comp.firebasestorage.app",
+    messagingSenderId: "624686099687",
+    appId: "1:624686099687:web:d527aaf983d2287fe88642"
   };
 
   // Initialize Firebase
