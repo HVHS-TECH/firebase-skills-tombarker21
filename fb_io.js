@@ -12,7 +12,3 @@
   }
 
 
-  function fb_readlistener() {
-console.log(" is this Read Listener");
-firebase.database().ref('/message').on('value',  fb_logDatabaseRead)
-}

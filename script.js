@@ -48,6 +48,7 @@ function simpleRead() {
 function displayRead(snapshot) {
     console.log("Running displayRead(), the message is: " + snapshot.val())
     HTML_OUTPUT.innerHTML = snapshot.val();
+    console.log(snapshot.val() )
 }
 
 
@@ -61,4 +62,29 @@ function displayRead(snapshot) {
     }
 }
 
+
+  function fb_readlistener() {
+console.log(" is this Read Listener");
+firebase.database().ref('/').on('value', displayRead)
+}
+
+
+function add_highScores() {
+firebase.database().ref('/').set(
+  {
+    game1:{
+      users:{
+        cedric: 98,
+        tom: 96,
+        jacob:7,
+        cameron:5,
+
+      }
+    }
+  }
+
+
+
+);
+}
 
