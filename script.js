@@ -108,3 +108,13 @@ function fb_readHighScores() {
 function fb_error(error) {
   console.log(error)
 }
+
+let scoreObject = {
+"cedric ralph bell":12,
+"Brian gillies":67,
+}
+function displayNames() {
+console.log(
+  scoreObject["Brian gillies"]
+)
+}
